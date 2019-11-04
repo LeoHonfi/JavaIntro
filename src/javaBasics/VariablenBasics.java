@@ -33,6 +33,7 @@ public class VariablenBasics {
 		System.out.println(kleine_Zahl);
 		System.out.println(Integer.MIN_VALUE);
 		System.out.println(Integer.MAX_VALUE);
+		System.out.println(" ");
 		
 		
 		

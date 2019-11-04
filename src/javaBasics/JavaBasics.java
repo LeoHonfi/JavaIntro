@@ -23,6 +23,7 @@ public class JavaBasics {
 		//F/D Verwenden
 		System.out.println(9/3F);
 		System.out.println(9D/3);
+		System.out.println(" ");
 		//
 		System.out.println("1+1=" + 1 + 1);
 		System.out.println("1+1=" + (1 + 1));
