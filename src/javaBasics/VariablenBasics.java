@@ -57,6 +57,16 @@ public class VariablenBasics {
 		System.out.println(" ");
 		//
 		
+		//char
+		char ein_zeichen = 'a';
+		System.out.println(ein_zeichen);
+		//char zwei_zeichen='ab'; geht nicht!
+		
+		//string
+		String text ="abcdefg";
+		System.out.println(text); 
+		
+		
 		
 		
 	}
