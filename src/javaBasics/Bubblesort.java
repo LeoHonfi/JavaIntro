@@ -4,9 +4,9 @@ package javaBasics;
 public class Bubblesort {
 
 	public static void main(String[] args) {
-		int[] zahl = { 9, 1, 5, 7, 4, 6, 3, 2, 8, 0 };
-		for (int j = 0; j < zahl.length - 1;j++) { 
-			for (int i = 0; i < zahl.length - 1; ++i) {
+		int[] zahl = { 9, 5, 1, 4, 6, 3, 2, 8, 0 };
+		for (int j = 0; j < zahl.length-1;j++) { 
+			for (int i = 0; i < zahl.length-1; i++) {
 				if (zahl[i] > zahl[i + 1]) { 
 					int x = zahl[i];
 					zahl[i] = zahl[i + 1];
@@ -24,7 +24,6 @@ public class Bubblesort {
 		System.out.println(zahl[6]);
 		System.out.println(zahl[7]);
 		System.out.println(zahl[8]);
-		System.out.println(zahl[9]);
 
 	}
 
